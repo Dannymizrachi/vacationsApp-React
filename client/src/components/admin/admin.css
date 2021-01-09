@@ -1,0 +1,47 @@
+.editButton {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  padding: 5px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  bottom: 0px;
+}
+
+.editButton:hover {
+  background-color: grey;
+  color: white;
+}
+.inputHidden {
+  visibility: hidden;
+}
+.imgSize {
+  width: 100px;
+  height: 100px;
+}
+.deleteButton {
+  border: none;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+.modalBody {
+  text-align: center;
+}
+.containerFixes {
+  margin-bottom: 15px;
+}
+.mainWrapper {
+  background-color: lightslategrey;
+}
+.addImage {
+  background: transparent;
+  border: none;
+  outline: none;
+}

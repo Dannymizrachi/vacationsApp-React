@@ -1,0 +1,63 @@
+.header {
+  height: -webkit-fill-available;
+}
+.navbar {
+  height: -webkit-fill-available;
+}
+.logOutContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.logoutButton {
+  color: black;
+}
+.logoutButton:hover {
+  color: rgb(75, 74, 74);
+}
+.addProduct {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: white;
+  font-size: large;
+
+  text-align: right;
+
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.modalBody {
+  text-align: center;
+}
+.inputHidden {
+  visibility: hidden;
+}
+.imgSize {
+  width: 100px;
+  height: 100px;
+}
+
+.logOutContainer::before {
+  display: flex;
+}
+.logOutContainer::after {
+  display: inline-table;
+}
+.addImage {
+  background: transparent;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,11 @@
+.chartContainer {
+  max-width: 100%;
+  top: 100px;
+}
+h2 {
+  position: relative;
+}
+.mainContainer {
+  height: 100%;
+  position: relative;
+}
